@@ -6,8 +6,10 @@ The client, a mid-size local real estate agency, needs data insights to advise h
 
 To provide these insights, the King County Housing Data Set was analysed, which contains 20 features of houses sold in King County. A full description of the dataset's columns can be found below. The aim of this project is to develop a multiple regression model than can predict a house's price as accurately as possible.
 
+### Data Understanding & Preparation
+This dataset contains house sale prices, May 2014 to May 2015, for King County. The data represents 20 different house features and the sale price.
 
-###  King County Data Set Columns
+####  King County Data Set Columns
 * id - unique identified for a house
 * dateDate - house was sold
 * pricePrice - is prediction target
@@ -29,3 +31,7 @@ To provide these insights, the King County Housing Data Set was analysed, which 
 * long - Longitude coordinate
 * sqft_living15 - The square footage of interior housing living space for the nearest 15 neighbors
 * sqft_lot15 - The square footage of the land lots of the nearest 15 neighbors
+
+
+The target variable will be the sale price of the home, as the goal is to build a model to predict price. We selected features related to the house as the important predictor features.
+
