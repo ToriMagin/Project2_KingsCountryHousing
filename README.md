@@ -32,5 +32,7 @@ The King County Housing Data Set contains information about the size, location, 
 This analysis will seek to answer three questions:
 
 Q1: Which features are most highly correlated with price?
+
 Q2: Which features have the strongest correlations with other predictor variables?
+
 Q3: What combinations of features is the best fit, in terms of predictive power, for a multiple regression model to predict house prices?
