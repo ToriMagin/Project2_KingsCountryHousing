@@ -4,7 +4,7 @@
 
 The King County Housing Data Set contains information about the size, location, condition, and other features of houses in King County. A full description of the dataset's columns can be found below. The aim of this project is to develop a multiple regression model than can predict a house's price as accurately as possible.
 
-### Column Names and descriptions for King County Data Set
+###  King County Data Set Columns
 * id - unique identified for a house
 * dateDate - house was sold
 * pricePrice - is prediction target
