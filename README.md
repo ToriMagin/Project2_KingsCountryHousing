@@ -51,3 +51,13 @@ Certain features were grouped to make them eaier to analyse wuithin the model.
 
 
 
+### Correlation with Price 
+
+After examining the price vs. preditor scatter plots, it was clear view, floors, qft_lot, and sqft_lot15 no clear linear relationship between. These features were therefore removed from the model. 
+
+# Modeling
+
+
+
+
+
