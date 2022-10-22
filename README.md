@@ -36,4 +36,7 @@ This dataset contains house sale prices, May 2014 to May 2015, for King County. 
 The target variable will be the sale price of the home, as the goal is to build a model to predict price. We selected features related to the house as the important predictor features.
 
 
+Variables ID, date, latitude, longitude, and zipcode we’re removed as they were not considered reasonable predictors.
+
+
 
