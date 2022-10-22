@@ -68,6 +68,13 @@ This final model produced an r-squared of 0.612, indicating 61% of variability i
 However, when checking the linear regression assumptions, it was apparent our variables still violated the assumption of homoscedasticity.
 
 
+# Recommendations 
+
+#### 1. Expand the living area
+#### 2. Add a bathroom 
+#### 3. Focus on high construction quality
+
+
 
 
 
