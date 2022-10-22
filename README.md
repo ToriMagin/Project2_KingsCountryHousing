@@ -61,6 +61,6 @@ The base model (with all featurues outlined above) performed okay with an r-sqau
 
 After conducting correltaion and multicollinearity checks, it was found that **sqft_living** was highly correlated with **sqft_above** and **sqft_living15**. **sqft_living**  was most highly correlated with price so **sqft_above** and **sqft_living15** were removed from the model. **condition_3** and **condition_4** were highly correlated and  **condition_3** (being the mid-level category）was very poorly correlated with price, so **condition_3** was removed. 
 
-The **Final Model** contain
+The **Final Model's** continuos variables (price and sqft_living) were logged. Then all variables were min-max scaled due to varianve in the value magnitudes. 
 
 
