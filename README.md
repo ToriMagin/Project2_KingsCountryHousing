@@ -61,6 +61,13 @@ The base model (with all featurues outlined above) performed okay with an r-sqau
 
 After conducting correltaion and multicollinearity checks, it was found that **sqft_living** was highly correlated with **sqft_above** and **sqft_living15**. **sqft_living**  was most highly correlated with price so **sqft_above** and **sqft_living15** were removed from the model. **condition_3** and **condition_4** were highly correlated and  **condition_3** (being the mid-level category）was very poorly correlated with price, so **condition_3** was removed. 
 
-The **Final Model's** continuos variables (price and sqft_living) were logged. Then all variables were min-max scaled due to varianve in the value magnitudes. 
+The **Final Model's** continuos variables (price and sqft_living) were logged to improve the skewness of the distribution. Then all variables were min-max scaled due to varianve in the value magnitudes and attempt to reduce the heteroskedasticity of the errors. 
+
+This final model produced an r-squared of 0.612, indicating 61% of variability in the sale price. Validation using the Test-Train method produced less than a 1% difference in the test and train datasets. This indicates our model performed very well for predicting prices. 
+
+However, when checking the linear regression assumptions, it was apparent our variables still violated the assumption of homoscedasticity.
+
+
+
 
 
