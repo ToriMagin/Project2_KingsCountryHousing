@@ -71,7 +71,9 @@ However, when checking the linear regression assumptions, it was apparent our va
 # Recommendations 
 
 **1. Expand the living area **
+
 **2. Add a bathroom **
+
 **3. Focus on high construction quality**
 
 The square footage of a house, its grade, and number of bathrooms are among the strongest predictors of house prices.
