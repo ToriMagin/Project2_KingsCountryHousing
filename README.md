@@ -55,6 +55,8 @@ Certain features were grouped to make them eaier to analyse wuithin the model.
 
 After examining the price vs. preditor scatter plots, it was clear view, floors, qft_lot, and sqft_lot15 no clear linear relationship between. These features were therefore removed from the model. 
 
+![Correlation](Projet_2/CorrelationswithPrice.png)
+
 # Modeling
 
 The base model (with all featurues outlined above) performed okay with an r-sqaured valued of 0.652. The Train-Test method revealed the test data mean square error  was 9.2% less than the training set. Indicating the model was overfitting the data
