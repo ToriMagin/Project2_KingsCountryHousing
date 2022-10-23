@@ -57,7 +57,7 @@ After examining the price vs. preditor scatter plots, it was clear view, floors,
 
 # Modeling
 
-The base model (with all featurues outlined above) performed okay with an r-sqaured valued of _____. The Train-Test method revealed the test data mean square error  was actually _____% less than the training set. Indicating the model was overfitting the data
+The base model (with all featurues outlined above) performed okay with an r-sqaured valued of 0.652. The Train-Test method revealed the test data mean square error  was 9.2% less than the training set. Indicating the model was overfitting the data
 
 After conducting correltaion and multicollinearity checks, it was found that **sqft_living** was highly correlated with **sqft_above** and **sqft_living15**. **sqft_living**  was most highly correlated with price so **sqft_above** and **sqft_living15** were removed from the model. **condition_3** and **condition_4** were highly correlated and  **condition_3** (being the mid-level category）was very poorly correlated with price, so **condition_3** was removed. 
 
